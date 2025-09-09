@@ -7,7 +7,7 @@ mkdir -p "$COMMANDS_DIR"
 
 
 # Download commands from GitHub
-REPO_URL="https://raw.githubusercontent.com/brennercruvinel/CCPlugins/main/commands"
+REPO_URL="https://raw.githubusercontent.com/theconsumer-ai/CCPlugins/main/commands"
 COMMANDS=(
     "cleanproject.md"
     "commit.md"
