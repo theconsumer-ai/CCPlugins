@@ -28,6 +28,7 @@ COMMANDS=(
     "security-scan.md"
     "session-end.md"
     "session-start.md"
+    "test-command.md"
     "test.md"
     "todos-to-issues.md"
     "undo.md"
