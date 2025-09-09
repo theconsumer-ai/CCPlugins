@@ -2,15 +2,18 @@
 
 I'll begin a documented coding session using Claude Code CLI's memory system.
 
+Let me first check the content of the CLAUDE.md file for project information.
+
 I'll integrate with the native memory system by updating CLAUDE.md:
-- Session timestamp and context
-- Current git state and branch
-- Session goals and objectives
-- Progress tracking throughout our work
+
 
 Let me check for existing memory files and update them appropriately:
-- Project memory (./CLAUDE.md) for team-shared context
-- User memory (~/.claude/CLAUDE.md) for personal session tracking
+- Project memory (./CLAUDE_PROGRESS.md) for documenting the project progress
+    - Session timestamp and context
+    - Current git state and branch
+    - Session goals and objectives
+    - Progress tracking throughout our work
+- Bugfix memory (./CLAUDE_FIX.md) for documenting bugfixes
 
 Please tell me:
 1. What are we working on today?
@@ -22,6 +25,7 @@ I'll add this session context to your memory system using the `/memory` command 
 **Important**: I will NEVER:
 - Add "Co-authored-by" or any Claude signatures
 - Include "Generated with Claude Code" or similar messages
+- Update the CLAUDE.md file
 - Modify git config or user credentials
 - Add any AI/assistant attribution to the commit
 

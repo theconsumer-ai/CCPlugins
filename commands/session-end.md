@@ -7,12 +7,14 @@ Let me analyze what we accomplished by:
 2. Checking git changes and commit history
 3. Summarizing completed work and pending items
 
-I'll update the appropriate CLAUDE.md file with:
+I'll update the appropriate CLAUDE_PROGRESS.md file with:
 - Session summary and accomplishments
 - Files modified and their purposes
 - Decisions made and rationale
 - Pending work and next steps
 - Any important context for future sessions
+I'll update the appropriate CLAUDE_PROGRESS.md file with:
+- Bugfixes I made
 
 ## Session Summary:
 
@@ -35,7 +37,9 @@ I'll update the appropriate CLAUDE.md file with:
 **Important**: I will NEVER:
 - Add "Co-authored-by" or any Claude signatures
 - Include "Generated with Claude Code" or similar messages
+- Update CLAUDE.md
 - Modify git config or user credentials
+- Do git adds or git commit commands
 - Add any AI/assistant attribution to the commit
 - Use emojis in commits, PRs, or git-related content
 
