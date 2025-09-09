@@ -2,7 +2,7 @@
 # CCPlugins Installer for Mac/Linux
 
 set -e
-COMMANDS_DIR="$HOME/.claude/commands"
+COMMANDS_DIR=".claude/commands"
 mkdir -p "$COMMANDS_DIR"
 
 
